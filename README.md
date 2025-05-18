@@ -1,4 +1,4 @@
-# Odin Project
+# Odin Assignments
 
 Stuffs from when I'm doing [The Odin Project](https://www.theodinproject.com).
 
