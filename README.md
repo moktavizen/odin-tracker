@@ -1,6 +1,6 @@
-# Odin Assignments
+# Odin Tracker
 
-Stuffs from when I'm doing [The Odin Project](https://www.theodinproject.com).
+Repo to track my [Odin Project](https://www.theodinproject.com) progress.
 
 ## Timetable
 
