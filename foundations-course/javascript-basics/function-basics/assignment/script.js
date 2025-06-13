@@ -15,10 +15,7 @@ function multiply(num1, num2) {
 }
 
 function capitalize(str) {
-  const firstChar = str.at(0).toUpperCase();
-  const restOfString = str.slice(1).toLowerCase();
-
-  return firstChar + restOfString;
+  return `${str.at(0).toUpperCase()}${str.slice(1).toLowerCase()}`;
 }
 
 function lastLetter(text) {
