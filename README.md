@@ -16,6 +16,6 @@ Foundations Course: 3 hours a day, 6 days a week, Pomodoro 25'5'15
 |                    | Flexbox           |   `25/05/25` | [Landing Page](https://moktavizen.github.io/odin-landing-page/) | `06/06/25` |
 |                    | *Family Gathering |   `26/05/25` |              |              |
 |                    | *Fever            |   `01/06/25` |              |              |
-|                    | JavaScript Basics |   `08/06/25` |              |              |
+|                    | JavaScript Basics |   `08/06/25` | [Rock Paper Scissors](https://moktavizen.github.io/odin-rock-paper-scissors/) | `15/06/25` |
 
 \* Absent
