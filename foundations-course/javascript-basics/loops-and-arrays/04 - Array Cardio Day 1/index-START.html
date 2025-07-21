@@ -114,10 +114,10 @@
 
       const sortedInventorsByYearsLived = inventors.sort(
         (inventorA, inventorB) => {
-          const A = inventorA.passed - inventorA.year;
-          const B = inventorB.passed - inventorB.year;
+          const a = inventorA.passed - inventorA.year;
+          const b = inventorB.passed - inventorB.year;
 
-          return B - A;
+          return b - a;
         },
       );
 
