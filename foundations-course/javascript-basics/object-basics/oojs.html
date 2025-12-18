@@ -19,15 +19,43 @@
 
     <script>
       const person = {
-        name: ["Bob", "Smith"],
+        name: {
+          first: "Bob",
+          last: "Smith",
+        },
         age: 32,
-        bio: function () {
+        bio() {
           console.log(
-            `${this.name[0]} ${this.name[1]} is ${this.age} years old`,
+            `${this.name.first} ${this.name.last} is ${this.age} years old`,
           );
         },
-        introduceSelf: function () {
-          console.log(`Hi! I'm ${this.name[0]}.`);
+        introduceSelf() {
+          console.log(`Hi! I'm ${this.name.first}.`);
+        },
+      };
+
+      function logProperty(obj, propName) {
+        console.log(obj[propName]);
+      }
+
+      logProperty(person, "name");
+      logProperty(person, "age");
+
+      const myDataName = "height";
+      const myDataValue = "1.75m";
+      person[myDataName] = myDataValue;
+
+      const person1 = {
+        name: "Chris",
+        introduceSelf() {
+          console.log(`Hi! I'm ${this.name}.`);
+        },
+      };
+
+      const person2 = {
+        name: "Deepti",
+        introduceSelf() {
+          console.log(`Hi! I'm ${this.name}.`);
         },
       };
     </script>
