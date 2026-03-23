@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Form Validation Practice</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <form action="#" id="user-info" novalidate>
+      <div>
+        <label for="email">Email:</label><span id="email-validation" class="validation-msg"></span
+        ><input type="email" id="email" required />
+      </div>
+      <div>
+        <label for="country">Country:</label
+        ><span id="country-validation" class="validation-msg"></span
+        ><input type="text" id="country" required />
+      </div>
+      <div>
+        <label for="postal-code">Postal Code:</label
+        ><span id="postal-code-validation" class="validation-msg"></span
+        ><input type="text" id="postal-code" minlength="4" required />
+      </div>
+      <div>
+        <label for="password">Password:</label
+        ><span id="password-validation" class="validation-msg"></span
+        ><input type="password" id="password" minlength="4" required />
+      </div>
+      <div>
+        <label for="password-confirmation">Password Confirmation:</label
+        ><span id="password-confirmation-validation" class="validation-msg"></span
+        ><input type="password" id="password-confirmation" minlength="4" required />
+      </div>
+      <div><button type="submit" id="submit">Submit</button><span id="form-log"></span></div>
+    </form>
+  </body>
+</html>
