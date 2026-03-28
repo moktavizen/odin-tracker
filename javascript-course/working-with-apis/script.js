@@ -29,7 +29,7 @@ async function renderNewGIF(apiKey, searchParam, imgEl, buttonEl) {
   buttonEl.removeAttribute("disabled");
 }
 
-const API_KEY = "PUT_YOUR_API_KEY_HERE";
+const API_KEY = "tBAnkZU7nLghGwU8UjGT212x3gSAQ7fo";
 
 const input = document.querySelector("input");
 const img = document.querySelector("img");
